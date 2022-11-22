@@ -16,11 +16,16 @@
     <main>
       <section class="todo-section">
         <div class="wrapper">
-          <div class="todo">
-            <div class="input-row">
-              <input type="text" class="todo-input">
-              <input type="submit">
-            </div>
+          <h1 class="heading">Inayatullah's Todo List</h1>
+          <div class="todo-container">
+              <form action="#FIXME" method="get" class="form">
+                <div class="input-group">
+                  <input type="text" class="todo-input">
+                </div>
+                <span class="submit-btn">
+                  <input type="submit">
+                </span>
+              </form>
             <select name="select" id="select">
               <option value="All">All</option>
               <option value="Done">Done</option>
@@ -28,11 +33,11 @@
             </select>
           </div>
           <ul class="display-todo">
-            <li>
-              <div class="todo">Task 1</div>
-              <button>Mark as Done</button>
-              <button>Delete</button>
-            </li>
+            <!-- <li class="todo-list">
+              <div class="todo-info">Lorem ipsum dolor sit amet consectetur,</div>
+              <button class="control mark-done-btn">Mark as Done</button>
+              <button class="control delete-btn">Delete</button>
+            </li> -->
           </ul>
         </div>
       </section>
