@@ -197,6 +197,14 @@ input { width: 100%; }
   margin: 20px 0;
 }
 
+.todo-list.show {
+  display: flex;
+}
+
+.todo-list.hide {
+  display: none;
+}
+
 .todo-info {
   flex-basis: 70%;
   padding: 10px 15px;
@@ -232,6 +240,12 @@ select {
   border: none;
   outline: none;
 }
+
+.todo-list.completed {
+  text-decoration: line-through;
+  opacity: .6;
+}
+
 
 /*=================================
   main styling ends here
